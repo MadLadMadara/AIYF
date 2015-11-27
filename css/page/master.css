@@ -1,0 +1,38 @@
+body{
+	background-color: orange;	
+}
+
+#banner{
+	height: 100px;
+	background-color: gray;
+	padding:0px;
+}
+
+#banner_row{
+
+}
+
+.bannerElement{
+	height:100px;
+}
+/* banner elements from left to right*/
+.bannerElement:nth-of-type(1){
+
+}
+.bannerElement:nth-of-type(2){
+background-color:orange;
+}
+.bannerElement:nth-of-type(3){
+
+}
+
+#wrapper{
+
+}
+
+
+.main-font{
+/* yet to be decided*/
+
+}
+

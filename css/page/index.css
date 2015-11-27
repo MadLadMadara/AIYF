@@ -1,0 +1,118 @@
+.mainImages{
+	/*place holder height*/
+	height:325px; 
+
+}
+.imageContainer{
+	padding:0px;
+
+}
+
+.outerNavElement{
+	
+	height:150px;
+
+}
+
+.outerNavElement:nth-of-type(2){
+
+	background-color: gray;
+    opacity: 0.6;
+}
+  
+.navTopMenu{
+	
+	z-index:1;
+	height:150px;
+	position:absolute;
+	bottom:0px;
+	padding:0px;
+	
+}
+
+.navBottomMenu{
+
+	z-index:1;
+	height:150px;
+	position:absolute;
+	top:0px;
+	padding:0px;
+	
+}
+
+#topLeftImg{
+
+	background-color: blue;
+
+
+}
+#topRightImg{
+
+	background-color: green;
+
+}
+a{
+	/* link buttons */ 
+	color :black;
+	font-size: 45px;
+
+	/* still requiers a font */
+}
+#navBar{
+
+	background-color: pink;
+	/*place holdeer height*/
+	height: 120px;
+	padding: 0px;
+
+}
+
+#bottomLeftImg{
+
+	background-color: blue;
+	
+}
+
+#bottomRightImg{
+
+	background-color: green;
+
+}
+
+.navElement{
+
+	height:100%;
+
+}
+#topOptions{
+	background-color : black;
+	height:200px;
+	z-index: 1; 
+
+
+}
+
+.navElement:nth-of-type(1){
+
+    background-color: hotpink;
+
+}
+
+.navElement:nth-of-type(2){
+
+    background-color:purple;
+
+} 
+
+.navElement:nth-of-type(3){
+
+    background-color: yellow;
+
+}
+
+
+#sponsers{
+	height: 100px;
+	background-color: gray;
+}
+
