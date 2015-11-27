@@ -40,13 +40,8 @@
 	
 }
 
-#topLeftImg{
 
-	background-color: blue;
-
-
-}
-#topRightImg{
+#topImg{
 
 	background-color: green;
 
@@ -67,17 +62,12 @@ a{
 
 }
 
-#bottomLeftImg{
+#bottomImg{
 
 	background-color: blue;
 	
 }
 
-#bottomRightImg{
-
-	background-color: green;
-
-}
 
 .navElement{
 
@@ -113,6 +103,7 @@ a{
 
 #sponsers{
 	height: 100px;
-	background-color: gray;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
 }
 
