@@ -15,6 +15,13 @@ body{
 .bannerElement{
 	height:100px;
 }
+
+
+#bannerElementMain{
+
+
+
+}
 /* banner elements from left to right*/
 .bannerElement:nth-of-type(1){
 

@@ -3,25 +3,12 @@ $(document).ready(function(){
 
   
   var innerLinks = $(".innerLinks"); // element selectopr
-
-
+  var outerLinks = $(".outerNavElement:nth-child(2)"); //element selectopr
 
   innerLinks.hide();
-
-  $(".outerNavElement:nth-child(2)").hide(); // hide elemens  
-
-
-
+  outerLinks.hide();
 
   innerLinks.fadeIn("slow"); //fade in inner elements
-
-  /* this should slide from bottom to top
-
-	note: the $("").slideUp(); dose the revers of slideDown();
-	not the oppisite
-  */
-  $("#topExpandableNav").slideDown(); // <-- this is fubar
-
-  $("#bottomExpandableNav").slideDown(); // slide out bottom bar
- 
+  outerLinks.fadeIn("slow");
+  
 });

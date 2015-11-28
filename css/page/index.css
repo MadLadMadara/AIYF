@@ -43,9 +43,12 @@
 
 #topImg{
 
-	background-color: green;
+	background-image: url("../../img/homeBG.jpg");
+    background-color: #cccccc;
 
 }
+
+
 a{
 	/* link buttons */ 
 	color :black;
@@ -57,14 +60,15 @@ a{
 
 	background-color: pink;
 	/*place holdeer height*/
-	height: 120px;
+	height: 105px;
 	padding: 0px;
 
 }
 
 #bottomImg{
 
-	background-color: blue;
+	background-image: url("../../img/homeBG.jpg");
+    background-color: #cccccc;
 	
 }
 
