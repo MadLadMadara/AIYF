@@ -1,45 +1,62 @@
 body{
+	/*main background colour for all pages*/
 	background-color: #FFFFFF;	
+
 }
 
 #banner{
+	/*banner styling */
 	height: 100px;
 	background-color: gray;
 	padding:0px;
+
 }
 
 #banner_row{
+	/*row that banner sits in*/
 
 }
 
 .bannerElement{
+	/*elements with in the bamnner */
 	height:100px;
+
 }
 
 
 #bannerElementMain{
-
-
-
+	/*the elemnt that the main logo/page title sits in*/
 }
+
 /* banner elements from left to right*/
 .bannerElement:nth-of-type(1){
 
 }
+
 .bannerElement:nth-of-type(2){
 background-color:orange;
 }
+
 .bannerElement:nth-of-type(3){
 
 }
 
+/*wrapper style that contains all the content of each page exept the banner*/
 #wrapper{
 
 }
 
+/*the footer at the bottom*/
+#sponsers{
+	
+	height: 100px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
 
+
+/*quick font implementation list for all pages*/
 .main-font{
-/* yet to be decided*/
-
+	font-family: 'Open Sans', serif;
 }
 

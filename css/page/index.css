@@ -1,39 +1,58 @@
 .mainImages{
-	/*place holder height*/
+	/* the 2 background images */
 	height:325px; 
 
 }
+
 .imageContainer{
+	/* the container for the 2 mackground images as well as
+	the top and bottom nav bars*/
 	padding:0px;
+
 
 }
 
 .outerNavElement{
-	
+	/* the top and bottom nav bars */
 	height:150px;
+	padding: 0px; 
 
 }
 
 .outerNavElement:nth-of-type(2){
+	/* the top and bottom nav section that faids 
+	in */
+	height:228px;
 
-	background-color: gray;
-    opacity: 0.6;
+
+
+
 }
   
 .navTopMenu{
-	
+	/* the top nav bars */
 	z-index:1;
-	height:150px;
+
 	position:absolute;
 	bottom:0px;
 	padding:0px;
 	
 }
 
-.navBottomMenu{
+#navBar{
+	/*middle nav bar*/
+	height: 105px;
+	padding: 0px;
 
+
+
+}
+
+
+.navBottomMenu{
+	/* the bottom nav bars */
 	z-index:1;
-	height:150px;
+
 	position:absolute;
 	top:0px;
 	padding:0px;
@@ -41,71 +60,86 @@
 }
 
 
+
 #topImg{
-
-	background-image: url("../../img/homeBG.jpg");
-    background-color: #cccccc;
-
-}
-
-
-a{
-	/* link buttons */ 
-	color :black;
-	font-size: 45px;
-
-	/* still requiers a font */
-}
-#navBar{
-
-	background-color: pink;
-	/*place holdeer height*/
-	height: 105px;
-	padding: 0px;
+  /*the top background image*/
+  background: url(../../img/homeTopHalf.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
+
+
+
 
 #bottomImg{
 
-	background-image: url("../../img/homeBG.jpg");
-    background-color: #cccccc;
+ 	/*the bottom background image*/
+   background: url(../../img/homeBottomHalf.png) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	
 }
 
 
 .navElement{
-
+	/* all middle nav bar elements*/
 	height:100%;
+	padding: 0px;
 
 }
-#topOptions{
-	background-color : black;
-	height:200px;
-	z-index: 1; 
 
-
-}
 
 .navElement:nth-of-type(1){
-
+	/* first left side middle nav bar elements*/
     background-color: hotpink;
 
 }
 
 .navElement:nth-of-type(2){
-
+	/* second middle middle nav bar elements*/
     background-color:purple;
 
 } 
 
 .navElement:nth-of-type(3){
-
+	/* third last middle nav bar elements*/
     background-color: yellow;
 
 }
 
+.navLinkElementContainer{
+	/*all links in the faiding in and middle nav bars*/
+	font-family: 'Open Sans', serif;
+	color :black;
+	font-size: 45px;
+	background-color: rgba(144,144,144, 0.5);
+  
+	margin-top: 6px;
+
+	height:105px;
+
+}
+
+#navLinkElementContainerMid{
+	/*special condition for middle links in middle nav bars*/
+	margin-top: 0px;
+	background-color: rgba(144,144,144 , 1);
+}
+
+.innerLinkStyle{
+	/*inner Link style note: vertical text centering*/
+	margin-top:20px;
+	
+}
+
 
 #sponsers{
+	/*the footer at the bottom*/
 	height: 100px;
 	background-color: #FFFFFF;
 	border: 1px solid #000000;
