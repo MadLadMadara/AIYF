@@ -50,7 +50,7 @@ background-color:orange;
 #footer{
 	
 	background-color: #FFFFFF;
-	border: 1px solid #000000;
+	
 
 }
 /*the footer at the bottom*/
@@ -77,6 +77,13 @@ background-color:orange;
 	margin:10px;
 	float: right;
 
+}
+hr{
+	border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
 
 

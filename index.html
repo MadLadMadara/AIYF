@@ -19,9 +19,19 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-  
+
+  	<div id="mobile" class="row">
+
+  		<div id="mobileLogo" class="columns small-12 show-for-small-only">
+  			
+  		</div>
+
+	</div>
+
  <!-- main page wrapper -->
     <div id="wrapper" class="row">
+    	<div id="mobile"></div>
+
 
      <!-- dev note http://www.w3schools.com/cssref/pr_pos_clip.asp for cutting images -->
       <div class="columns small-12 imageContainer">
@@ -31,9 +41,9 @@
        <!-- this is the top push down nav -->  
         <div class="columns small-12 navTopMenu">
 
-          <div class="columns small-3 medium-4 outerNavElement"></div>
+          <div class="columns hide-for-small-only medium-4 outerNavElement"></div>
 
-          <div class="columns small-6 medium-4 outerNavElement" id="topExpandableNav">
+          <div class="columns small-12 medium-4 outerNavElement" id="topExpandableNav">
 
           <!-- top expandable links -->
             <a href="gallery.html">
@@ -52,7 +62,7 @@
           		<div class="navLinkElementContainer columns text-center small-12">
 
                 	<div class="columns small-12 innerLinkStyle">
-                 	2
+                 		About Us
                 	</div>
 
           		</div>
@@ -61,7 +71,7 @@
 
           </div>
 
-          <div class="columns small-3 medium-4 outerNavElement"></div>
+          <div class="columns hide-for-small-only medium-4 outerNavElement"></div>
 
         </div>
       </div>
@@ -71,16 +81,16 @@
       <!-- main nav bar -->
       <div id="navBar" class="columns small-12">
       
-          <div class="columns small-3 medium-4 navElement"></div>
+          <div class="columns hide-for-small-only medium-4 navElement"></div>
 
-          <div class="columns small-6 medium-4 navElement">
+          <div class="columns small-12 medium-4 navElement">
           	
           	<a href="test3">
 
           		<div id="navLinkElementContainerMid" class="navLinkElementContainer columns text-center small-12">
 
                 	<div class="columns small-12 innerLinkStyle">
-                 		3
+                 		Take Part
                 	</div>
 
           		</div>
@@ -90,7 +100,7 @@
           </div>
 
 
-          <div class="columns small-3 medium-4 navElement"></div>
+          <div class="columns  medium-4 navElement hide-for-small-only"></div>
 
       </div>
 
@@ -103,15 +113,15 @@
        <!-- this is the bottom push down nav -->     
         <div class="columns small-12 navBottomMenu">
 
-          <div class="columns small-3 medium-4 outerNavElement" ></div>
-          <div class="columns small-6 medium-4 outerNavElement" id="bottomExpandableNav">
+          <div class="columns hide-for-small-only medium-4 outerNavElement" ></div>
+          <div class="columns small-12 medium-4 outerNavElement" id="bottomExpandableNav">
           <!-- bottom expandable links -->
           	<a href="test4">
 
           		<div class="navLinkElementContainer columns text-center small-12">
 
                 	<div class="columns small-12 innerLinkStyle">
-                		 4
+                		 Venues
                 	</div>
 
           		</div>
@@ -123,14 +133,14 @@
           		<div class="navLinkElementContainer columns text-center small-12">
 
                 	<div class="columns small-12 innerLinkStyle">
-                		5
+                		Sponsors
                 	</div>
                 
           		</div>
           	</a>
 
           </div>
-          <div class="columns small-3 medium-4 outerNavElement"></div>
+          <div class="columns hide-for-small-only medium-4 outerNavElement"></div>
 
         </div>
 
@@ -160,7 +170,7 @@
       	</div>
 
       </div>
-
+ 		<hr/>
     </div>
    
     <script src="js/vendor/jquery.js"></script>
