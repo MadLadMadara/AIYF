@@ -5,13 +5,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AIYF Gallery</title>
+    <!-- VV frame work zurb foundation -->
     <link rel="stylesheet" href="css/foundation.css" />
+     <!--  VV google font API for Open Sans font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'> 
+    <!-- VV in house local and global site css -->
     <link rel="stylesheet" href="css/page/master.css" />
     <link rel="stylesheet" href="css/page/gallery.css" />
+       <!-- VV requiered by zurb foundation :
+      checks to see if the browser supports
+      particular HTML, CSS and javascript features 
+     -->
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-  <!-- banner section-->  
+
+  <!-- banner section will be repeated in all pages
+    css for this is in master
+  -->  
   <div class="columns small-12" id="banner">
     <div class="row" id="banner_row">
       <div class="columns small-1 medium-2 bannerElement"></div>
@@ -21,10 +32,69 @@
   </div>
 
  <!-- main page wrapper -->
-    <div id="wrapper" class="row">
+ <div id="wrapper" class="row">
+      
+      <!-- footer -->
+      <div id="footer" class="columns small-12">
+        <!-- sponsers links and images -->
+        <div id="sponsers" class="columns small-8">
 
-   
+          <!-- sponsers shell -->
+          <a href="http://www.shell.co.uk">
+
+            <img  src="img/sponsers/Shell_logo.png">
+
+          </a>
+
+          <!-- sponsers BP -->
+          <a href="http://www.bp.com">
+
+            <img  src="img/sponsers/bp-logo.png">
+
+          </a>
+          <!-- sponsers Nexen -->
+          <a href="http://www.nexencnoocltd.com">
+
+            <img  src="img/sponsers/Nexen_Logo.png">
+
+          </a>
+          <!-- sponsers University of Aberdeen -->
+          <a href="http://www.abdn.ac.uk">
+
+            <img  src="img/sponsers/University_of_Aberdeen_Logo_Full.png">
+
+          </a>
+          <!-- sponsers Aberdeen city council-->     
+          <a href="http://www.aberdeencity.gov.uk/home/home.asp">
+
+            <img src="img/sponsers/ACClogo.png">
+
+          </a>            
+        </div>
+        <!-- social links and images -->
+        <div id="social" class="columns small-4">
+
+          <!-- facebook -->
+           <a href="https://www.facebook.com/Aberdeen-International-Youth-Festival-6543449229/">
+
+                        <img  src="img/social/Facebook_logo_square.png">
+
+          </a>
+          <!-- twitter -->
+
+          <a href="https://twitter.com/AIYF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+               
+              <img  src="img/social/Twitter_logo_blue.png">
+
+          </a>
+          
+
+        </div>
+
+      </div>
+      <hr/>
     </div>
+  
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
