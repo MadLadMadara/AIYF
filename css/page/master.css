@@ -47,12 +47,40 @@ background-color:orange;
 }
 
 /*the footer at the bottom*/
-#sponsers{
+#footer{
 	
-	height: 100px;
 	background-color: #FFFFFF;
 	border: 1px solid #000000;
+
 }
+/*the footer at the bottom*/
+#footer > #social, #sponsers{
+
+	margin-top:10px;
+	margin-bottom:10px;
+
+
+}
+
+
+#footer > #social > img, #sponsers > img {
+
+	height:50px;
+	margin:10px;
+
+
+}
+
+#footer > #social > img {
+
+	height:50px;
+	margin:10px;
+	float: right;
+
+}
+
+
+
 
 
 /*quick font implementation list for all pages*/
