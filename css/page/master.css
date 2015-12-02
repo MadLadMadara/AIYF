@@ -63,7 +63,7 @@ background-color:orange;
 }
 
 
-#footer > #social > img, #sponsers > img {
+#footer > #social > a > img, #sponsers > a > img {
 
 	height:50px;
 	margin:10px;
@@ -71,7 +71,7 @@ background-color:orange;
 
 }
 
-#footer > #social > img {
+#footer > #social > a > img {
 
 	height:50px;
 	margin:10px;
