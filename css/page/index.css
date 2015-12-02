@@ -108,7 +108,11 @@
 
 .navElement:nth-of-type(3){
 	/* third last middle nav bar elements*/
-    background-color: yellow;
+   background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
