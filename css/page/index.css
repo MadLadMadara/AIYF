@@ -9,7 +9,6 @@
 	the top and bottom nav bars*/
 	padding:0px;
 
-
 }
 
 .outerNavElement{
@@ -23,9 +22,6 @@
 	/* the top and bottom nav section that faids 
 	in */
 	height:228px;
-
-
-
 
 }
   
@@ -43,8 +39,6 @@
 	/*middle nav bar*/
 	height: 105px;
 	padding: 0px;
-
-
 
 }
 
@@ -122,9 +116,12 @@
 
 }
 #mobileLogo{
-	
+	/*
+		this will only be displayed on mobil at the top
+		of the screeen
+	*/
 	height:105px;
-	 background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
+	background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
