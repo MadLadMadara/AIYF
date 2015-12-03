@@ -19,8 +19,10 @@
 }
 
 .outerNavElement:nth-of-type(2){
-	/* the top and bottom nav section that faids 
-	in */
+	/* 
+		the top and bottom nav section that faids 
+		in 
+	*/
 	height:228px;
 
 }
@@ -28,7 +30,6 @@
 .navTopMenu{
 	/* the top nav bars */
 	z-index:1;
-
 	position:absolute;
 	bottom:0px;
 	padding:0px;
