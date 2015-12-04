@@ -13,8 +13,8 @@ $(document).ready(function(){ // wait until the html/css to load
 
   // fade in elements
   // 1200 milliseconds
-  innerLinks.fadeIn(1200); 
-  outerLinks.fadeIn(1200);
+  innerLinks.fadeIn(900); 
+  outerLinks.fadeIn(900);
 
   /* 
   on mouse over of .innerLinks change

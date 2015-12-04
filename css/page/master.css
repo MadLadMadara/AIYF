@@ -4,6 +4,9 @@ body{
 
 }
 
+/*!!!!!!!BANNER!!!!!!!!*/
+
+/*the main container of the banner*/
 #banner{
 	/*banner styling */
 	height: 100px;
@@ -13,28 +16,25 @@ body{
 
 }
 
-#banner > .row{
 
-
-
-}
 
 #banner > .row > #menuBtnContainer, #bannerLogContainer{
 
+/* the banner container*/
 	height:100px;
 	padding: 0px;
 	background-color: #EB0089;
-	/*margin-left: 5px; */
+
 	
 
 }
 
 /*banner drop down button*/
 #banner > .row > #menuBtnContainer > #menuBtn{
-	margin-left: 5px;
+  margin-left: 5px;
   margin-top:25px;
   height:50px;
-  background: url(../../img/menuIcon.png) no-repeat center center ; 
+  background: url(../../img/menuWhiteIcon.png) no-repeat center center ; 
    -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -54,21 +54,50 @@ body{
   
 }
 
+#banner > .row:nth-of-type(2) > #menuDropDownContainer{
+	overflow: hidden;
+	height: 370px;
+	
+	z-index: 1;  
+}
+/* every option in the drop down menu */
+#banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption{
+
+	
+	padding: 0px;
+	margin-top: 12px; 
+	background-color: rgba(144,144,144, 0.8); 
+
+}
+
+/* the container of the text*/
+#banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer{
+	padding: 0px;
+
+}
+
+/* the text in the menus*/
+#banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer > h1{
+	padding: 0px;
+}
 
 
 
-
+/*!!!!!!! MAIN BODY WRAPPER !!!!!!!!*/
 
 /*wrapper style that contains all the content of each page exept the banner*/
 #wrapper{
 
 }
 
+
+
+/*!!!!!!!FOOTER!!!!!!!!*/
+
 /*the footer at the bottom*/
 #footer{
 	
 	background-color: #FFFFFF;
-	
 
 }
 /*the footer at the bottom*/
