@@ -65,11 +65,11 @@ $(document).ready(function(){ // on page load
 
 	dropDownMenuOptions.hover(function(){ // this changes the colour of the menu option when hover overed
 
-		$(this).css("background-color", "rgba(144,144,144, 0.9)"); // on hover
+		$(this).css("background-color", "rgba(144,144,144, 0.99)"); // on hover
 
 	}, function(){
 
-		$(this).css("background-color", "rgba(144,144,144, 0.8)"); // off hover
+		$(this).css("background-color", "rgba(144,144,144, 0.9)"); // off hover
 
 	});
 
