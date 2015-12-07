@@ -149,14 +149,14 @@ hr{
     background-color: #333; /* Modern Browsers */
 }
 
-
-
-
-
-
-
 /*quick font implementation list for all pages*/
 .main-font{
 	font-family: 'Open Sans', serif;
+}
+/* font for the page content*/
+.content-font{
+	
+	font-family: 'Droid Sans', serif;
+
 }
 
