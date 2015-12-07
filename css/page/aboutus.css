@@ -1,0 +1,37 @@
+/*the container for summery elements*/
+.infoContainer{
+
+	background-color: rgba(144,144,144, 0.1);
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+
+}
+
+.infoContainer > .textTitle{
+
+	margin-top: 10px;
+	font-size: 30px;
+
+}
+
+.infoContainer > .textQuestion{
+
+	font-size: 20px;
+}
+
+.infoContainer > .textContentBox{
+	min-height: 200px;
+	max-height: 250px;
+	overflow: scroll;
+
+}
+/* hr style for questions*/
+.questionsHrStyle{
+
+	border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #585349; /* old IE */
+    background-color: #585349; /* Modern Browsers */
+}
