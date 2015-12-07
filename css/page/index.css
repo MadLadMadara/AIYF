@@ -1,51 +1,52 @@
+/* the 2 background images */
 .mainImages{
-	/* the 2 background images */
+	
 	height:325px; 
 
 }
-
-.imageContainer{
 	/* the container for the 2 mackground images as well as
 	the top and bottom nav bars*/
+.imageContainer{
+
 	padding:0px;
 
 }
-
+/* the top and bottom nav bars */
 .outerNavElement{
-	/* the top and bottom nav bars */
+	
 	height:150px;
 	padding: 0px; 
 
 }
-
-.outerNavElement:nth-of-type(2){
 	/* 
 		the top and bottom nav section that faids 
 		in 
 	*/
+.outerNavElement:nth-of-type(2){
+
 	height:228px;
 
 }
-  
+  /* the top nav bars */
 .navTopMenu{
-	/* the top nav bars */
+	
 	z-index:1;
 	position:absolute;
 	bottom:0px;
 	padding:0px;
 	
 }
-
+/*middle nav bar*/
 #navBar{
-	/*middle nav bar*/
+	
 	height: 105px;
 	padding: 0px;
 
 }
 
-
+/* the bottom nav bars */
 .navBottomMenu{
-	/* the bottom nav bars */
+	
 	z-index:1;
 
 	position:absolute;
@@ -55,9 +56,9 @@
 }
 
 
-
+/*the top background image*/
 #topImg{
-  /*the top background image*/
+  
   background: url(../../img/homeTopHalf.png) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -68,10 +69,10 @@
 
 
 
-
+	/*the bottom background image*/
 #bottomImg{
 
- 	/*the bottom background image*/
+ 
    background: url(../../img/homeBottomHalf.png) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -80,17 +81,17 @@
 	
 }
 
-
+/* all middle nav bar elements*/
 .navElement{
-	/* all middle nav bar elements*/
+	
 	height:100%;
 	padding: 0px;
 
 }
 
-
-.navElement:nth-of-type(1){
 	/* first left side middle nav bar elements*/
+.navElement:nth-of-type(1){
+
    background: url(../../img/buyTickets.png) no-repeat center center ; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -98,15 +99,15 @@
   background-size: contain;
   background-color: #EB0089;
 }
-
+/* second middle middle nav bar elements*/
 .navElement:nth-of-type(2){
-	/* second middle middle nav bar elements*/
+	
      background-color: #EB0089; 
 
 } 
-
-.navElement:nth-of-type(3){
 	/* third last middle nav bar elements*/
+.navElement:nth-of-type(3){
+
 	
    background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
   -webkit-background-size: contain;
@@ -115,12 +116,13 @@
   background-size: contain;
   background-color: #EB0089; 
 
-}
-#mobileLogo{
-	/*
+}	
+/*
 		this will only be displayed on mobil at the top
 		of the screeen
 	*/
+#mobileLogo{
+
 	height:105px;
 	background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
   -webkit-background-size: contain;

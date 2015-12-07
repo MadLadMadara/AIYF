@@ -40,6 +40,4 @@ $(document).ready(function(){ // wait until the html/css to load
   });
 
 
-  
-  
 });
