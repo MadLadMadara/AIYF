@@ -81,6 +81,20 @@ body{
 	padding: 0px;
 }
 
+/*page title*/
+.PageTile{
+	 padding-left: 0px;
+	padding-right: 0px;
+	height:55px;
+	
+}
+
+.PageTile > .innerTitle{
+	margin-top: 10px;
+	font-size: 30px; 
+	
+}
+
 
 
 /*!!!!!!! MAIN BODY WRAPPER !!!!!!!!*/
@@ -109,7 +123,7 @@ body{
 
 }
 
-
+/* both sponsers and social imgs in footer*/
 #footer > #social > a > img, #sponsers > a > img {
 
 	height:50px;
@@ -118,6 +132,7 @@ body{
 
 }
 
+/* just the social images in footer */
 #footer > #social > a > img {
 
 	height:50px;
@@ -125,6 +140,7 @@ body{
 	float: right;
 
 }
+/* global style*/
 hr{
 	border: none;
     height: 1px;
@@ -132,6 +148,8 @@ hr{
     color: #333; /* old IE */
     background-color: #333; /* Modern Browsers */
 }
+
+
 
 
 
