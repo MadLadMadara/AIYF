@@ -34,7 +34,8 @@ $(document).ready(function(){ // wait until the html/css to load
   // the buy tickets link 
   $(".navElement:nth-of-type(1)").click(function(){ // event 
 
-      window.location.href = "Gallery.html"; // the link 
+      // this re-directs the user to aberdeeb box office
+      window.location.href = "http://www.aberdeenperformingarts.com/venues/his-majestys-theatre?username=&password=&mybutton=submit&stuff="; // the link 
 
   });
 
