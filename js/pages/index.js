@@ -1,3 +1,4 @@
+// using the JQuery library
 $(document).ready(function(){ // wait until the html/css to load
 
   // element selectors, selecting by class
@@ -11,15 +12,16 @@ $(document).ready(function(){ // wait until the html/css to load
   outerLinks.hide();
 
   // fade in elements
-  innerLinks.fadeIn("slow"); 
-  outerLinks.fadeIn("slow");
+  // 1200 milliseconds
+  innerLinks.fadeIn(900); 
+  outerLinks.fadeIn(900);
 
   /* 
   on mouse over of .innerLinks change
   the colour of the element that the mouse
   is hovering over.
   */
-  	linkContainers.hover(function(){ // on hover 
+  linkContainers.hover(function(){ // on hover 
 
   		$(this).css("background-color", "rgba(144,144,144, 0.8)");
 
@@ -28,6 +30,15 @@ $(document).ready(function(){ // wait until the html/css to load
 		$(this).css("background-color", "rgba(144,144,144, 0.5)");
 
 	});
+
+  // the buy tickets link 
+  $(".navElement:nth-of-type(1)").click(function(){ // event 
+
+      // this re-directs the user to aberdeeb box office
+      window.location.href = "http://www.aberdeenperformingarts.com/venues/his-majestys-theatre?username=&password=&mybutton=submit&stuff="; // the link 
+
+  });
+
 
   
   

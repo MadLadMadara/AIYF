@@ -9,7 +9,6 @@
 	the top and bottom nav bars*/
 	padding:0px;
 
-
 }
 
 .outerNavElement{
@@ -20,19 +19,17 @@
 }
 
 .outerNavElement:nth-of-type(2){
-	/* the top and bottom nav section that faids 
-	in */
+	/* 
+		the top and bottom nav section that faids 
+		in 
+	*/
 	height:228px;
-
-
-
 
 }
   
 .navTopMenu{
 	/* the top nav bars */
 	z-index:1;
-
 	position:absolute;
 	bottom:0px;
 	padding:0px;
@@ -43,8 +40,6 @@
 	/*middle nav bar*/
 	height: 105px;
 	padding: 0px;
-
-
 
 }
 
@@ -96,8 +91,12 @@
 
 .navElement:nth-of-type(1){
 	/* first left side middle nav bar elements*/
-   
-    background-color: #EB0089; 
+   background: url(../../img/buyTickets.png) no-repeat center center ; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #EB0089;
 }
 
 .navElement:nth-of-type(2){
@@ -118,8 +117,12 @@
 
 }
 #mobileLogo{
+	/*
+		this will only be displayed on mobil at the top
+		of the screeen
+	*/
 	height:105px;
-	 background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
+	background: url(../../img/AIYFlogoCROP.jpg) no-repeat center center ; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
