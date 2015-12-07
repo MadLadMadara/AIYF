@@ -18,6 +18,7 @@
 	border-top-right-radius: 10px;
 
 }
+/*image containers */
 .sponsorContainer > .sponsorHeaderContainer > .sponsorImgContainer{
 	background-color: white; 
 	border-radius: 10px;
@@ -32,13 +33,12 @@
  
 
 }
-
+/*the sponsor titles*/
 .sponsorContainer > .sponsorHeaderContainer > .sponserHeaderText{
 
 	margin-top: 15px;
 	font-size: 30px;  
 	color: #FFFFFF;
-
 
 }
 /*sponser image*/
@@ -57,7 +57,7 @@ max-height:100%;
 	padding-top: 7px;  
 
 }
-/*exeptions*/
+/*exeptions for sponsor titles */
 .sponsorContainer:nth-of-type(7) > .sponsorHeaderContainer > .sponserHeaderText{
 
 	font-size: 20px;

@@ -7,8 +7,9 @@ body{
 /*!!!!!!!BANNER!!!!!!!!*/
 
 /*the main container of the banner*/
+/*banner styling */
 #banner{
-	/*banner styling */
+	
 	height: 100px;
 	background-color: gray;
 	padding:0px;
@@ -17,10 +18,10 @@ body{
 }
 
 
-
+/* the banner container*/
 #banner > .row > #menuBtnContainer, #bannerLogContainer{
 
-/* the banner container*/
+
 	height:100px;
 	padding: 0px;
 	background-color: #EB0089;
@@ -41,7 +42,7 @@ body{
   background-size: contain;
   
 }
-
+/* the logo in the banner*/
 #banner > .row > #bannerLogContainer {
 	
  
@@ -70,7 +71,7 @@ body{
 
 }
 
-/* the container of the text*/
+/* the container of the text in the drop down menu*/
 #banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer{
 	padding: 0px;
 
@@ -88,7 +89,7 @@ body{
 	height:55px;
 	
 }
-
+/*the text container in the options*/
 .PageTile > .innerTitle{
 	margin-top: 10px;
 	font-size: 30px;
@@ -146,10 +147,11 @@ hr{
 	border: none;
     height: 1px;
     /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
+    color: #333; 
+    background-color: #333; 
 }
 
+/*!!!!!FONTS!!!!!!!!*/
 /*quick font implementation list for all pages*/
 .main-font{
 	font-family: 'Open Sans', serif;

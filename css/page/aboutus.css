@@ -7,27 +7,30 @@
 	
 
 }
-
+/*text titles in info container*/
 .infoContainer > .textTitle{
 
 	margin-top: 10px;
 	font-size: 30px;
 
 }
-
+/* question headings*/
 .infoContainer > .textQuestion{
 
 	font-size: 20px;
 	
 }
-
+/* text containers in info containers*/
 .infoContainer > .textContentBox{
 	min-height: 200px;
 	max-height: 250px;
 	overflow: scroll;
 
 }
-/* hr style for questions*/
+/*
+ hr style for questions 
+	this over rides the master css hr
+*/
 .questionsHrStyle{
 
 	border: none;
