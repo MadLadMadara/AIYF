@@ -1,0 +1,26 @@
+/*main div containers on the page*/
+.takePartContainer{
+	background-color: rgba(144,144,144, 0.1);
+	min-height:250px;
+}
+/* the how to take part section*/
+#takePartInfoContainer{
+
+
+
+}
+/*the form section*/
+#takePartFormContainer{
+	
+}
+/* the titles above the 2 sections*/
+.infoHeader{
+
+	font-size:20px;
+	
+}
+
+#formSubmitBtn{
+	background-color: #EB0089;
+	border-radius: 5px;
+}
