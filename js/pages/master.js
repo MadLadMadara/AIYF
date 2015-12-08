@@ -32,7 +32,7 @@ $(document).ready(function(){ // on page load
 
   			if(!toggleMenuBtn){ // slide down if the menu is up
 
-  				dropDownMenu.slideDown("slow", menuBtnBounceCallBack); // slide menu down
+  				dropDownMenu.slideDown(350, menuBtnBounceCallBack); // slide menu down
 
   				// VV changes menu button image
   				menuBtnImg.css("background", "url(img/menuGreyIcon.png) no-repeat center center");
@@ -45,7 +45,7 @@ $(document).ready(function(){ // on page load
 
   			}else{ // slide up if the menu is down
 
-  				dropDownMenu.slideUp("slow", menuBtnBounceCallBack); // slide menu up
+  				dropDownMenu.slideUp(350, menuBtnBounceCallBack); // slide menu up
 
   				// VV changes menu button image
   				menuBtnImg.css("background", "url(img/menuWhiteIcon.png) no-repeat center center");
