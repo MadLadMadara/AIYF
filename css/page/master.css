@@ -36,7 +36,7 @@ body{
   margin-top:25px;
   height:50px;
   background: url(../../img/menuWhiteIcon.png) no-repeat center center ; 
-   -webkit-background-size: contain;
+  -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
@@ -48,7 +48,7 @@ body{
  
   height:100px;
   background: url(../../img/AIYFlogocrop.jpg) no-repeat center center ; 
-   -webkit-background-size: contain;
+  -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
@@ -57,44 +57,44 @@ body{
 
 #banner > .row:nth-of-type(2) > #menuDropDownContainer{
 	overflow: hidden;
-	height: 370px;
-	
+	height: 450px;	
 	z-index: 1;  
 }
 /* every option in the drop down menu */
 #banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption{
-
-	
+	border: 1px solid;
+	border-color: #000000;
 	padding: 0px;
 	margin-top: 12px; 
-	background-color: rgba(144,144,144, 0.8); 
-
+	background-color: rgba(144,144,144, 0.9);
 }
 
 /* the container of the text in the drop down menu*/
 #banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer{
 	padding: 0px;
 
+
 }
 
 /* the text in the menus*/
-#banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer > h1{
-	padding: 0px;
+#banner > .row:nth-of-type(2) > #menuDropDownContainer > a > .menuOption > #menuOptionTextContainer > h3{
+
+
 }
 
-/*page title*/
+/*page title  note: *Tile = *Title
+*/
 .PageTile{
-	 padding-left: 0px;
+	padding-left: 0px;
 	padding-right: 0px;
 	height:55px;
 	
 }
-/*the text container in the options*/
+/*page title vertical centering*/
 .PageTile > .innerTitle{
 	margin-top: 10px;
 	font-size: 30px;
-	
-	
+	 
 }
 
 

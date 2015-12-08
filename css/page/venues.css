@@ -1,0 +1,42 @@
+/*container for venues*/
+.venuesContainer{
+	margin-bottom: 20px; 
+	background-color: rgba(144,144,144, 0.2);
+	border-radius: 1px;
+
+}
+
+/*the header for venues*/
+.venuesContainer > .venuesHeaders {
+	
+	
+}
+/* the text for the venues*/
+.venuesContainer > .venuesContent{
+	padding-left: 2px;
+	padding-right: 2px;  
+	padding-top:7px;
+	padding-bottom:7px;
+	margin-bottom: 7px;
+	background-color: rgba(144,144,144, 0.1);
+	
+	
+
+}
+/*inner header text*/
+.venuesContainer > .venuesHeaders > .venuesHeadersText{
+
+	font-size:20px;
+	font-weight:bold; 
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+/*inner content text*/
+.venuesContainer > .venuesContent > .venuesContentText{
+	overflow-y: scroll;
+	height: 175px;
+	padding-top:7px;
+	padding-bottom:7px;
+
+}

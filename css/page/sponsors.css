@@ -1,11 +1,12 @@
 /*main sponsors containers*/
 .sponsorContainer{
-	background-color: rgba(144,144,144, 0.1);
+	background-color: rgba(144,144,144, 0.2);
 	
 	margin-top: 10px;
 	padding-left: 0px;
-	border-radius: 10px;
-	padding: 0px;
+	border-radius: 5px;
+	padding-bottom :10px;
+	
 }
 /*sponsor image*/
 .sponsorContainer > .sponsorHeaderContainer{
@@ -14,14 +15,14 @@
 	height: 75px;   
 	background-color: rgba(144,144,144, 1);;
 	
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 
 }
 /*image containers */
 .sponsorContainer > .sponsorHeaderContainer > .sponsorImgContainer{
 	background-color: white; 
-	border-radius: 10px;
+	border-radius: 5px;
 	padding: 10px;
 	margin-top:25px; 
 	margin-left: -5px;
@@ -50,14 +51,20 @@ max-height:100%;
 /*sponsor text*/
 .sponsorContainer > .sponsorTextContainer{
 	margin-top: 7px; 
-	padding-top:7px;
+	padding-bottom:7px;
 	min-height: 150px;
 	max-height: 200px;
-	overflow: scroll;
+	overflow-y: scroll;
 	padding-top: 7px;  
 
 }
 /*exeptions for sponsor titles */
+.sponsorContainer:nth-of-type(5) > .sponsorHeaderContainer > .sponserHeaderText{
+
+	font-size: 20px;
+	margin-top: 15px;
+
+}
 .sponsorContainer:nth-of-type(7) > .sponsorHeaderContainer > .sponserHeaderText{
 
 	font-size: 20px;
